@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-comments",
   "version": "1.0.0",
-  "description": "Checks comment coverage.",
+  "description": "Verifies minimum amount of comments per file.",
   "keywords": [
     "eslint",
     "eslintplugin",

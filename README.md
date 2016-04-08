@@ -1,19 +1,19 @@
 # eslint-plugin-comments
 
-Checks comment coverage.
+Verifies minimum amount of comments per file.
 
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i eslint --save-dev
+$ npm install --save-dev eslint
 ```
 
 Next, install `eslint-plugin-comments`:
 
 ```
-$ npm install eslint-plugin-comments --save-dev
+$ npm install --save-dev eslint-plugin-comments
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-comments` globally.
@@ -31,21 +31,12 @@ Add `comments` to the plugins section of your `.eslintrc` configuration file. Yo
 ```
 
 
-Then configure the rules you want to use under the rules section.
+Then configure the rules you want to use under the rules section.  The second option here (10) is the minimum percentage of non-blank lines in a files that must be comments.
 
 ```json
 {
     "rules": {
-        "comments/rule-name": 2
+        "comments/coverage": [ 2, 10 ]
     }
 }
 ```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
-
-
-
