@@ -7,10 +7,14 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "William Riley-Land",
+  "author": {
+    "name": "William Riley-Land",
+    "email": "william@kun.io",
+    "url": "http://kun.io/wprl"
+  },
   "main": "lib/index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha tests/lib/rules/"
+    "test": "./node_modules/.bin/mocha tests/lib/rules/"
   },
   "dependencies": {
     "requireindex": "^1.1.0"
@@ -22,5 +26,5 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "MIT"
+  "license": "GPL-3.0"
 }
