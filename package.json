@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-comments",
+  "version": "1.0.0",
+  "description": "Checks comment coverage.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "William Riley-Land",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha tests/lib/rules/"
+  },
+  "dependencies": {
+    "requireindex": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
