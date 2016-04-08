@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-comments",
+  "name": "eslint-plugin-literate",
   "version": "1.0.0",
-  "description": "Verifies minimum amount of comments per file.",
+  "description": "Verifies minimum number of comments per file.",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -11,6 +11,17 @@
     "name": "William Riley-Land",
     "email": "william@kun.io",
     "url": "http://kun.io/wprl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wprl/eslint-plugin-literate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wprl/eslint-plugin-literate/issues/new",
+    "email": "william@kun.io"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
   },
   "main": "lib/index.js",
   "scripts": {

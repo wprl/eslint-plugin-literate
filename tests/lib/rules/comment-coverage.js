@@ -1,6 +1,6 @@
 'use strict';
 
-var rule = require('../../../lib/rules/coverage');
+var rule = require('../../../lib/rules/comment-coverage');
 var RuleTester = require('eslint').RuleTester;
 
 var parserOptions = {};
