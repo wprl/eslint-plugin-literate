@@ -31,7 +31,7 @@ Add `comment` to the plugins section of your `.eslintrc` configuration file. You
 ```
 
 
-Then configure the rules you want to use under the rules section.  The second option here (10) is the minimum percentage of non-blank lines in a files that must be comment.
+Then configure the rules you want to use under the rules section.  The second option here (10) is the minimum percentage of non-blank lines in a files that must be a comment.
 
 ```json
 {
